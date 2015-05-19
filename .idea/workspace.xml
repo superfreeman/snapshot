@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7e11b68-b309-4e35-a36e-5a4ef28b6039" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/ParseManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/ParseSnapshot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/bean/SnapshotConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/servlet/CreatDataServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/servlet/FileUploadServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/servlet/MergeFileServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/servlet/StartServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/utils/FileManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/utils/SpringContextUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/com/asb/snapshot/utils/Syslog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/book.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/book_titel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/but_cut.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/folderClosed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/folderOpen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconCheckAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconCheckDis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconCheckGray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconChecked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconSafe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconText.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconUncheckAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/iconUncheckDis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/leaf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line1_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/line4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/minus5_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/plus5_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/radio_off.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/radio_on.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/csh_bluebooks/tombs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/imgs/sample_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/swf/JsSocket.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/ParseManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/ParseSnapshot.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/bean/SnapshotConfig.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/servlet/CreatDataServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/servlet/FileUploadServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/servlet/MergeFileServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/servlet/StartServlet.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/utils/FileManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/utils/SpringContextUtils.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/classes/com/asb/snapshot/utils/Syslog.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/book.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/book_titel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/but_cut.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/folderClosed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/folderOpen.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconCheckAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconCheckDis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconCheckGray.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconChecked.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconSafe.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconText.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconUncheckAll.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/iconUncheckDis.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/leaf.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line1_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/line4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/lock.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/minus5_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus2_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus3_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus4_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/plus5_rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/radio_off.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/radio_on.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/csh_bluebooks/tombs.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/imgs/sample_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/org/apache/jsp/index_jsp.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/swf/JsSocket.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/snapshot_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_1_6_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snapshot.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseSnapshot.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/bean/SnapshotConfig.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/CreatDataServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/FileUploadServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/MergeFileServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/StartServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/FileManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/SpringContextUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/Syslog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/dhtmlxtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/dhtmlxcommon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/dhtmlxtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/js/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/socket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/swf/JsSocket.mxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/tree.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/conf/spring-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/conf/spring.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/css/dhtmlxtree.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/data/data.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/js/dhtmlxcommon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/js/dhtmlxtree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/js/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/org/apache/jsp/index_jsp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/right.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/socket.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/swf/JsSocket.mxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/snapshot/tree.html" />
+    </list>
+    <ignored path="snapshot.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="&#13;&#13;JAVA" />
+        <option name="LOG_MESSAGE" value="&#13;&#13;JAVA" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="snapshot" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="spring.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="107" selection-end="1256" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="71" column="31" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring-config.xml">
+          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="55" selection-start="686" selection-end="686" vertical-scroll-proportion="0.59210527">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="117" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParseSnapshot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseSnapshot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SnapshotConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/bean/SnapshotConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="29" selection-start="265" selection-end="274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringContextUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/SpringContextUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="13" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreatDataServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/CreatDataServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="16" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/FileManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="18" selection-start="2792" selection-end="2792" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseSnapshot.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/CreatDataServlet.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/bean/SnapshotConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/MergeFileServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring-log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/FileManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/StartServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseManager.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/FileUploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/socket.js" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="D:\java\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="keepSourceFolders" value="false" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1366" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snapshot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snapshot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snapshot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snapshot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snapshot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="113" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="115" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="113" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="913" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="913" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="130" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="115" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
+    <property name="project.structure.side.proportion" value="0.2062937" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\WEB-INF\conf" />
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\WEB-INF" />
+      <recent name="D:\work\ideal\snapshot\src\main\webapp" />
+      <recent name="D:\work\ideal\snapshot\src\main\java" />
+      <recent name="D:\work\ideal\snapshot\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\WEB-INF\conf" />
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\css" />
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\swf" />
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\js" />
+      <recent name="D:\work\ideal\snapshot\src\main\webapp\imgs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat7">
+    <configuration default="false" name="Syslog" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.asb.snapshot.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.asb.snapshot.utils.Syslog" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="snapshot" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/src/main/webapp">
+          <settings>
+            <option name="CONTEXT_PATH" value="/snapshot" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_snapshot" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52980" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="snapshot:war" />
+        </option>
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="Tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/snapshot/index.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="snapshot:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/snapshot" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_snapshot_2" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52980" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="snapshot:war" />
+          <artifact name="snapshot:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Syslog" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat7" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\yanjieli\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7e11b68-b309-4e35-a36e-5a4ef28b6039" name="Default" comment="" />
+      <created>1431407911806</created>
+      <updated>1431407911806</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first time to add">
+      <created>1432044896488</created>
+      <updated>1432044896488</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1366" height="738" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4584775" sideWeight="0.69561875" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5536332" sideWeight="0.29900077" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32129133" sideWeight="0.48961937" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.057093427" sideWeight="0.49730977" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28657618" sideWeight="0.21799308" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27517295" sideWeight="0.48961937" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2997694" sideWeight="0.67128026" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="first time to add" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="first time to add" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/MergeFileServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="56" selection-start="772" selection-end="782" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="23" selection-start="4564" selection-end="4564" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/swfobject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/dhtmlxcommon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/FileUploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="75" selection-start="1684" selection-end="1692" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="107" selection-end="1256" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="31" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="117" selection-start="2013" selection-end="2013" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/ParseSnapshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/bean/SnapshotConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="29" selection-start="265" selection-end="274" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/SpringContextUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/servlet/CreatDataServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="16" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/asb/snapshot/utils/FileManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="18" selection-start="2792" selection-end="2792" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/conf/spring-config.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="55" selection-start="686" selection-end="686" vertical-scroll-proportion="0.59210527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>snapshot:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2062937" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2062937" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2062937" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2062937" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web|snapshot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2062937" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:3.8.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2062937" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        
+        <title>test</title>
+
+        <script src="js/jquery.js" language="javascript"></script>
+        <script src="js/swfobject.js" language="javascript"></script>
+    
+        <script>
+
+            var _jssocket = null;
+
+            $(function() 
+            {
+				
+				try{
+                var so = new SWFObject("JsSocket.swf", "mymovie", "400", "200", "1", "#0FFFFF");
+                so.addParam("allowScriptAccess", "always");
+   				so.write("flashcontent");
+
+                $(".send, #disconnect,#reloadtree").attr("disabled","disabled");
+				
+
+                $("#connect").click(function()
+                {
+                    if(_jssocket != null)
+                    {
+                        _jssocket.connect($("#ip").val(),$("#port").val());
+                        $("#messages").append("Connecting<br />\n");
+                    }
+                });
+
+                $("#disconnect").click(function()
+                {
+                    _jssocket.disconnect();
+                });
+
+				$("#reloadtree").click(function()
+                {
+                   $("#message").val("<soap>reload</soap>");
+                });
+
+                $("#send").click(function()
+                {
+                    _jssocket.write($("#message").val());
+                    $("#message").val("");
+                });
+				}catch(e){
+					alert(1)
+				}
+
+                
+            });
+
+            function jssocket_init()
+            {
+                // This is the id/name of the flash object
+                _jssocket = document.getElementById("mymovie");
+            
+                // Set callbacks for flash to call
+                _jssocket.setCallBack("connect","soc_connect");
+                _jssocket.setCallBack("disconnect","soc_closed");
+                _jssocket.setCallBack("recieve","soc_msg");
+                _jssocket.setCallBack("ioerror","soc_error");
+            }
+
+            // Called when socket connects
+            function soc_connect()
+            {
+                $("#connect").attr("disabled","disabled");
+                $(".send, #disconnect, #reloadtree").attr("disabled","");
+                $("#messages").append("Socket Connected<br />\n");;
+            }
+
+            function soc_error()
+            {
+                $("#connect").attr("disabled","");
+                $("#messages").append("There was an error connecting<br />\n");;
+            }
+            
+            // Called when socket is closed
+            function soc_closed()
+            {
+                $(".send, #disconnect, #reloadtree").attr("disabled","disabled");
+                $("#connect").attr("disabled","");
+                $("#messages").append("Socket Closed<br />\n");;
+            }
+            
+            // Called when socket receives message
+            function soc_msg(msg)
+            {
+                $("#messages").append("Recieved Message: "+msg);
+            }
+
+
+        </script>
+
+        <style>
+            * { 
+                margin:         0px;
+                padding:        0px;
+                font:           11px sans-serif;            }
+    
+            ul { 
+                margin-left:    30px;                       }
+
+            h1 { 
+                font:           24px sans-serif;            }
+
+            h2 {
+                margin-top:     30px;
+                font:           bold 16px sans-serif;       }
+                
+            input, textarea {
+                font:           11px Consolas, Monaco, Courier, monospace;
+                padding:        2px;
+                border:         1px solid #999;             }
+
+            hr { 
+                margin-bottom:  4px;                        }
+            
+            h3 { 
+                font-weight:	bold;						}
+
+            p {
+                margin:         10px 0px;                   }
+
+            #container { 
+                padding:        20px;
+                background:     #FFF;
+                width:          400px;
+                margin:         0px auto;                  }
+
+            #messages { 
+                height:         200px; 
+                width:          100%; 
+                border:         1px solid #666;             }
+
+			#message { 
+                height:         200px; 
+                width:          100%; 
+                border:         1px solid #666;             }
+
+
+            #showflash { 
+                margin:        1px;                         }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="container">
+         
+            
+            <p>This is the IP and Port that you want to connect to<br />
+                <input type="text" id="ip" value="127.0.0.1" />  
+                <input type="text" id="port" value="81" /> 
+			</p>
+			<p>
+                <button id="connect">Connect</button>
+				<button id="reloadtree">Reloadtree</button>
+                <button id="disconnect">Disconnect</button><br />
+            </p>
+
+            <p>
+                <textarea  id="message" class="send"></textarea> 
+                <button id="send" class="send" >Send</button>
+				<textarea id="messages" readonly="readonly"></textarea>
+            </p>
+            
+			<div id="flashcontent" />
+			  
+        </div>
+
+    </body>
+
+</html>
